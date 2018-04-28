@@ -8,16 +8,20 @@
     <string name="color">Color</string>
     <string name="registrar">Registrar</string>
     <string name="limpiar">Limpiar</string>
-    <string name="audi">Audi</string>
-    <string name="bmw">Bmw</string>
-    <string name="buggati">Buggati</string>
-    <string name="ferrari">Ferrari</string>
-    <string name="nissan">Nissan</string>
+    <string name="audi" translatable="false">Audi</string>
+    <string name="bmw" translatable="false">Bmw</string>
+    <string name="buggati" translatable="false">Buggati</string>
+    <string name="ferrari" translatable="false">Ferrari</string>
+    <string name="nissan" translatable="false">Nissan</string>
     <string name="amarillo">Amarillo</string>
     <string name="rojo">Rojo</string>
     <string name="azul">Azul</string>
     <string name="mensaje_guardado">Registro guardado</string>
     <string name="precio">Precio</string>
+    <string name="campoVacio">El campo no puede ser vacio</string>
+    <string name="placaCaracteresIni">Los tres primeros caracteres de la placa deben ser letras</string>
+    <string name="placaCaracteresfin">Los tres ultimos caracteres deben ser numeros</string>
+    <string name="placaNumCaracteres">La placa debe tener 6 caracteres</string>
 
 
     <string-array name="arrayModelo">

@@ -90,7 +90,7 @@ public class Agregar_carro extends AppCompatActivity {
         String evalPrecio = txtPrecio.getText().toString().trim();
 
         if (evalplaca.isEmpty()){
-            txtPlaca.setError("El campo no puede ser vacio");
+            txtPlaca.setError(getResources().getString(R.string.campoVacio));
             txtPlaca.requestFocus();
             return false;
         }else if (evalplaca.length() == 6) {
@@ -99,7 +99,7 @@ public class Agregar_carro extends AppCompatActivity {
             boolean b = m.matches();
 
             if (b == false) {
-                txtPlaca.setError("Los tres primeros caracteres de la placa deben ser letras");
+                txtPlaca.setError(getResources().getString(R.string.placaCaracteresIni));
                 txtPlaca.requestFocus();
                 return false;
             }
@@ -108,17 +108,17 @@ public class Agregar_carro extends AppCompatActivity {
             b = m.matches();
 
             if (b == false) {
-                txtPlaca.setError("Los tres ultimos caracteres deben ser numeros");
+                txtPlaca.setError(getResources().getString(R.string.placaCaracteresfin));
                 txtPlaca.requestFocus();
                 return false;
             }
         }else{
-            txtPlaca.setError("La placa debe tener 6 caracteres");
+            txtPlaca.setError(getResources().getString(R.string.placaNumCaracteres));
             txtPlaca.requestFocus();
             return false;
         }
         if (evalPrecio.isEmpty()){
-            txtPrecio.setError("El campo no puede ser vacio");
+            txtPrecio.setError(getResources().getString(R.string.campoVacio));
             txtPrecio.requestFocus();
             return false;
         }

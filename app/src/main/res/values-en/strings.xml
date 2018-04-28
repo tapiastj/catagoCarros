@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">catalagoCarros</string>
+    <string name="action_settings">Settings</string>
+    <string name="placa">Lisence place</string>
+    <string name="titulo_agregar">Add car</string>
+    <string name="marca">Brand</string>
+    <string name="modelo">Model</string>
+    <string name="color">Color</string>
+    <string name="registrar">Register</string>
+    <string name="limpiar">Clear</string>
+    <string name="audi" translatable="false">Audi</string>
+    <string name="bmw" translatable="false">Bmw</string>
+    <string name="buggati" translatable="false">Buggati</string>
+    <string name="ferrari" translatable="false">Ferrari</string>
+    <string name="nissan" translatable="false">Nissan</string>
+    <string name="amarillo">Yellow</string>
+    <string name="rojo">Red</string>
+    <string name="azul">Blue</string>
+    <string name="mensaje_guardado">Saved</string>
+    <string name="precio">Price</string>
+    <string name="campoVacio">The field cant\'t be empty</string>
+    <string name="placaCaracteresIni">The first 3 characters licence plate must be letters</string>
+    <string name="placaCaracteresfin">The last 3 characters licence plate must be numbers</string>
+    <string name="placaNumCaracteres">The length of plate characters must be 6</string>
+</resources>
